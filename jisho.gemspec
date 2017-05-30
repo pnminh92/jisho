@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jisho/cli/version'
+require 'jisho/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jisho-cli"
-  spec.version       = Jisho::Cli::VERSION
+  spec.name          = "jisho"
+  spec.version       = Jisho::VERSION
   spec.authors       = ["Minh Phan"]
   spec.email         = ["wofi.minh@1pac.vn"]
 
