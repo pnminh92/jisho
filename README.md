@@ -5,7 +5,7 @@ An english-japanese translator cli
 ## Installation
 
 ```ruby
-gem install jisho
+gem install jisho-cli
 ```
 
 ## Usage

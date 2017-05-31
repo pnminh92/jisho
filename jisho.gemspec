@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jisho/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jisho"
+  spec.name          = "jisho-cli"
   spec.version       = Jisho::VERSION
   spec.authors       = ["Minh Phan"]
   spec.email         = ["wofi.minh@1pac.vn"]
