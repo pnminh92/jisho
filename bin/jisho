@@ -1,0 +1,30 @@
+#!/usr/bin/env ruby
+
+require 'jisho'
+require 'optparse'
+
+options = {}
+
+OptionParser.new do |opts|
+  opts.banner = <<-EOS
+
+An english-japanese translator that help you search word via command line.
+It supports to search word in romanji/katakana/kanji/english.
+Based on http://jisho.org API.
+
+Usage: jisho [OPTION] WORD
+
+Options:
+  EOS
+
+  opts.on('-w', '--word [WORD]', 'search word') do |word|
+    options[:word] = word
+  end
+
+  opts.on('-h', '--help', 'display information') do |help|
+    puts opts
+    exit
+  end
+end.parse!
+
+Jisho.search(options[:word]) if options.key?(:word)
