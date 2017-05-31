@@ -10,6 +10,8 @@ gem install jisho-cli
 
 ## Usage
 
+![jisho gif](https://raw.githubusercontent.com/wofi-minh/jisho/master/jisho.gif)
+
 ```bash
 jisho -w hello
 
