@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Minh Phan"]
   spec.email         = ["wofi.minh@1pac.vn"]
 
-  spec.summary       = %q{An english-japanese dictionary using jisho.org API}
+  spec.summary       = %q{An english-japanese translator via command line}
   spec.homepage      = "https://github.com/wofi-minh/jisho"
   spec.license       = "MIT"
 
